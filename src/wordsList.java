@@ -15,7 +15,7 @@ public class wordsList {
     private JPanel wordsListPanel;
     private JButton btnEdit;
 
-    private JButton btnRemove;
+    private JButton btnDelete;
     private String user;
     private String currentMeaning;
 
@@ -40,7 +40,7 @@ public class wordsList {
             }
         });
 
-        btnRemove.addActionListener(e -> {
+        btnDelete.addActionListener(e -> {
             String selectedWord = (String) wordList.getSelectedValue();
             if (selectedWord == null) {
                 JOptionPane.showMessageDialog(null, "Please select a word first.");

@@ -10,7 +10,7 @@ import java.util.Vector;
 
 public class usersList {
     private JButton btnAdd;
-    private JButton btnRemove;
+    private JButton btnDelete;
     private JList<String> usersList;
     private JPanel usersListPanel;
     private Vector<String> userListData;
@@ -45,7 +45,7 @@ public class usersList {
         });
 
 
-        btnRemove.addActionListener(new ActionListener() {
+        btnDelete.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String selectedUser = usersList.getSelectedValue();
