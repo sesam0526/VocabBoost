@@ -50,7 +50,7 @@ public class LearningMode extends GameUtils {
 
     private void askQuestion() {
         if (allWordsAndMeanings.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "No words available. Please add words to play the quiz.");
+            JOptionPane.showMessageDialog(null, "단어를 1개 이상 등록하세요.");
             return;
         }
 

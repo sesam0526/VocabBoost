@@ -28,7 +28,7 @@ public class FlashcardsMode {
         FlashcardsModePanel.setPreferredSize(new Dimension(800, 600));
 
         if (wordsAndMeanings.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "No words available. Please add words to use the flashcards.");
+            JOptionPane.showMessageDialog(null, "단어를 1개 이상 등록하세요.");
             return;
         }
 
