@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="usersList">
+  <grid id="27dc6" binding="usersListPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="c050" class="javax.swing.JButton" binding="btnAdd">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-9067774"/>
+          <opaque value="false"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="f4814" class="javax.swing.JButton" binding="btnRemove">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-9067774"/>
+          <opaque value="false"/>
+          <text value="Remove"/>
+        </properties>
+      </component>
+      <component id="8e441" class="javax.swing.JList" binding="usersList">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Pyunji R" size="28"/>
+          <foreground color="-5008765"/>
+          <model/>
+          <opaque value="false"/>
+          <selectionBackground color="-2836074"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

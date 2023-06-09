@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LearningMode">
+  <grid id="27dc6" binding="LearningModePanel" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="779" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e775b" class="javax.swing.JLabel" binding="englishWord">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Ink Free" size="85" style="1"/>
+          <foreground color="-6927616"/>
+          <text value="English Word"/>
+        </properties>
+      </component>
+      <component id="2e186" class="javax.swing.JTextField" binding="tfMeaning">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Pyunji R" size="72" style="1"/>
+          <foreground color="-14671840"/>
+          <opaque value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="65444" class="javax.swing.JLabel" binding="answer">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Ink Free" size="48" style="1"/>
+          <foreground color="-9067774"/>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="a5a89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-5008765"/>
+          <text value="Please enter the meaning."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
